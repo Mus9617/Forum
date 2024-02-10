@@ -1,0 +1,81 @@
+@bg: #67eeff;
+@container: #343a6a;
+
+* {
+  margin: 0 auto;
+}
+
+body {
+  height: 100vh;
+  overflow: hidden;
+  background-color: @bg;
+}
+
+.centered() {
+  margin: auto;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  top: 0;
+  right: 0;
+}
+
+.container {
+  height: 400px;
+  width: 400px;
+  .centered();
+  background-color: @container;
+}
+
+.navi{
+  display: flex;
+  justify-content: flex-start;
+  font-size: xx-large;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 900;
+
+}
+
+.imagen{
+    display: flex;
+    padding-top: 10%;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+}
+
+#left{
+  height: 150px;
+  width: 200px;
+  .centered();
+  left: -200px;
+  background-color: @bg;
+  animation: leftexpand 3s infinite ease-in-out alternate;
+}
+
+#right{
+  height: 150px;
+  width: 200px;
+  .centered();
+  left: 201px; //1 pixel extra so theres no container showing
+  background-color: @bg;
+  animation: rightexpand 3s infinite ease-in-out alternate;
+}
+
+@keyframes leftexpand{
+  0%{clip-path: polygon(0 90%, 0 100%, 0 100%, 0 90%);}
+  10%{clip-path: polygon(0 90%, 0 100%, 0 100%, 0 90%);}
+  25%{clip-path: polygon(90% 0, 100% 0, 0 100%, 0 90%);}
+  40%{clip-path: polygon(90% 0, 100% 0, 0 100%, 0 90%);}
+  50%{clip-path: polygon(0 0, 100% 0, 0 100%, 0 90%);}
+  100%{clip-path: polygon(0 0, 100% 0, 0 100%, 0 90%);}
+}
+
+@keyframes rightexpand{
+  0%{clip-path: polygon(100% 0, 100% 10%, 100% 10%, 100% 0);}
+  10%{clip-path: polygon(100% 0, 100% 10%, 100% 10%, 100% 0);}
+  25%{clip-path: polygon(100% 0, 100% 10%, 10% 100%, 0 100%);}
+  40%{clip-path: polygon(100% 0, 100% 10%, 10% 100%, 0 100%);}
+  50%{clip-path: polygon(100% 0, 100% 10%, 100% 100%, 0 100%);}
+  100%{clip-path: polygon(100% 0, 100% 10%, 100% 100%, 0 100%);}
+}

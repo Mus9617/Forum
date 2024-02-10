@@ -11,7 +11,7 @@ $(document).ready(function() {
         clearInterval(interval);
         $(".preloader").fadeOut("slow", function() {
         
-          window.location.href = 'admin/blog.php';
+          window.location.href = 'home/home.html';
         });
       }
     }
