@@ -1,25 +1,24 @@
 <?php
 
+$db = new PDO('mysql:host=localhost;dbname=villes_tests', 'root', '');
 $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-   
     if (isset($_POST['pseudo'], $_POST['comment'], $_POST['parent_id'])) {
         $pseudo = $_POST['pseudo'];
         $comment = $_POST['comment'];
         $parentId = $_POST['parent_id'];
 
         try {
-          
+         
             $image_name = $_FILES['image']['name'];
             $image_tmp = $_FILES['image']['tmp_name'];
             move_uploaded_file($image_tmp, "uploads/$image_name");
 
-          
+      
             $emoji = $_POST['emoji'];
 
-        
+            
             $query = "INSERT INTO respuestas (gb_pseudo, gb_comentario, gb_id_publicacion, gb_fecha, gb_image_path, gb_emoji) 
                       VALUES (:pseudo, :comment, :parent_id, NOW(), :image, :emoji)";
             $stmt = $db->prepare($query);
@@ -44,10 +43,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     exit();
 }
 
-
-
 // Establecer la conexión a la base de datos
-// Procesar el envío del formulario
+// Procesar el envío del formulario si es un POST
 // Procesar la carga de imágenes
 // Obtener el emoji seleccionado
-// Insertar datos en la base de datos
+ // Insertar datos en la base de datos
+?>
