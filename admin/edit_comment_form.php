@@ -1,13 +1,13 @@
 <?php
-// Verification si i la reçu le commantaires
+
 if (isset($_GET['id'])) {
     $commentId = $_GET['id'];
 
-    // Conexión a la base de datos
+ 
     $db = new PDO('mysql:host=localhost;dbname=villes_tests', 'root', '');
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    // raquette de la obtention de donnes a modifier
+    
     $query = "SELECT * FROM blog WHERE bg_id = :commentId";
     $stmt = $db->prepare($query);
     $stmt->bindParam(':commentId', $commentId, PDO::PARAM_INT);
@@ -43,3 +43,7 @@ if (isset($_GET['id'])) {
     echo "Pas de id Propose dans les commentaires.";
 }
 ?>
+
+
+<!-- // Verification si i la reçu le commantaires
+// raquette de la obtention de donnes a modifier -->

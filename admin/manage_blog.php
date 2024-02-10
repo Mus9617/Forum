@@ -26,7 +26,8 @@ $comments = $stmt->fetchAll(PDO::FETCH_ASSOC);
 </head>
 
 <body>
-    <h1>Administration Du Blog -Commentaire en Attente de Validation</h1>
+    <h1>BLOG ADMIN ADMINISTRACIÓN</h1>
+    <a href="index.php"   class="atras"  >Volver Atras</a>
     <table>
         <tr>
             <th>Pseudo</th>
