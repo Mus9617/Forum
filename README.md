@@ -23,7 +23,7 @@
   <li>
   
 
-  SRUDENT PROJECT
+  STUDENT PROJECT
   
   
   </li>
