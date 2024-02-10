@@ -1,0 +1,23 @@
+body {
+  background-color: antiquewhite;
+  display: flex;
+}
+
+h1 {
+  border-bottom: 2px solid black;
+  color: darkslateblue;
+}
+
+.formii {
+  display: flex;
+  flex-direction: column;
+  padding-top: 10%;
+  padding-right: 10%;
+  height: 100%;
+  width: 100%;
+}
+
+.boton {
+  display: flex;
+  flex-direction: column;
+}

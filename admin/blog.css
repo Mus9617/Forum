@@ -1,0 +1,79 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+}
+
+header {
+    background-image: url(fondo.gif);
+    background-size: cover;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    font-size: x-large;
+    color: antiquewhite;
+    border-radius: 8PX solid black;
+}
+
+nav ul {
+    border-radius: 9px solid black;
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+.post {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.post p {
+    margin: 0;
+}
+
+.post form input[type="text"],
+.post form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+}
+
+.post form button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.responses {
+    list-style-type: none;
+    padding: 0;
+}
+
+.responses li {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 10px;
+}
