@@ -13,6 +13,11 @@
      CSS Framework=> Bootstrap
   
   </li>
+   <li>
+
+      Admin Panel with: Blog-Moderation,
+
+  </li>
 
   <li>
 
@@ -22,16 +27,15 @@ STUDENT PROJECT
 
 <li>
 
-<strong>
 SQL Example To Implement the logic of the forum
-</strong>
 </li>
-<strong>
 <p> Feel Free to USE / MODIFY </p></strong>
 
 </ul>
-
+<p>SCREENSHOT</p>
 <p align="center">
-   SCREENSHOT
+  
   <img src="https://github.com/Mus9617/Forum/assets/70225456/44c6e321-69c3-4654-82cc-5c782594670f" width="350" title="hover text">
 </p>
+<storng>
+<p> Next Futures: Login Managment/Clips ADD/USERS CHAT/STYLE</p></storng>
