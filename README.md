@@ -24,6 +24,15 @@ STUDENT PROJECT
 
   </li>
 
-<p> Feel Free to USE / MODIFY </p>
+<li>
+
+<strong>
+SQL Example To Implement the logic of the forum
+</strong>
+</li>
+<strong>
+<p> Feel Free to USE / MODIFY </p></strong>
 
 </ul>
+
+<img src="assets/img/fondo.gif" height="100px"; width="100px";>
