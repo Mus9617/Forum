@@ -4,7 +4,7 @@
 
   <li>
 
-     🛑 Simple forum build in HTML,CSS,JS,PHP
+    🛑 Simple forum build in HTML,CSS,JS,PHP
 
   </li>
 
@@ -13,7 +13,8 @@
     🛑 CSS Framework=> Bootstrap
   
   </li>
-   <li>
+  
+  <li>
 
     🛑  Admin Panel with: Blog-Moderation,
 
@@ -21,18 +22,16 @@
 
   <li>
 
-STUDENT PROJECT
+    🛑 STUDENT PROJECT
 
   </li>
 
-<li>
+  <li>
 
   🛑  SQL Example To Implement the logic of the forum
 
-
-
-
 </li>
+
 <p> Feel Free to USE / MODIFY </p></strong>
 
 </ul>
