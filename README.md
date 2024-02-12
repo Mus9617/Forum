@@ -41,5 +41,5 @@
   <img src="https://github.com/Mus9617/Forum/assets/70225456/44c6e321-69c3-4654-82cc-5c782594670f" width="350" title="hover text">
 </p>
 <storng>
-👷‍♀️<p> Next Futures:LOGIN MANAGMENT /CLIPS ADD / USERS CHAT / STYLE </p> 🧑‍🏭
+👷‍♀️<p> Next Futures==> LOGIN MANAGMENT /CLIPS ADD / USERS CHAT / STYLE </p> 🧑‍🏭
 </storng>
