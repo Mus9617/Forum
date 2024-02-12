@@ -6,10 +6,6 @@
 
       Simple forum build in HTML,CSS,JS,PHP
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="livredor.css
-
   </li>
 
   <li>
@@ -34,5 +30,3 @@ SQL Example To Implement the logic of the forum
 <p> Feel Free to USE / MODIFY </p></strong>
 
 </ul>
-
-<img src="assets/img/fondo.gif" height="100px"; width="100px";>
