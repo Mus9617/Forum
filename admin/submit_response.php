@@ -10,15 +10,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $parentId = $_POST['parent_id'];
 
         try {
-         
+
             $image_name = $_FILES['image']['name'];
             $image_tmp = $_FILES['image']['tmp_name'];
             move_uploaded_file($image_tmp, "uploads/$image_name");
 
-      
+
             $emoji = $_POST['emoji'];
 
-            
+
             $query = "INSERT INTO respuestas (gb_pseudo, gb_comentario, gb_id_publicacion, gb_fecha, gb_image_path, gb_emoji) 
                       VALUES (:pseudo, :comment, :parent_id, NOW(), :image, :emoji)";
             $stmt = $db->prepare($query);
@@ -47,5 +47,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 // Procesar el envío del formulario si es un POST
 // Procesar la carga de imágenes
 // Obtener el emoji seleccionado
- // Insertar datos en la base de datos
+// Insertar datos en la base de datos
+
+// First we do the db connection, we proccess th POST request,we do the same thing for
+// th images to show them,we obtain the emoji ("still workin on progress") the JS 
+// libary dosen't worck im still working on it, last step we INSERT all the data 
+// to the DATA BASE .
+
+
+
+
+
+
+
+
+
 ?>

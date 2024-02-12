@@ -3,11 +3,11 @@
 if (isset($_GET['id'])) {
     $commentId = $_GET['id'];
 
- 
+
     $db = new PDO('mysql:host=localhost;dbname=villes_tests', 'root', '');
     $db->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
-    
+
     $query = "SELECT * FROM blog WHERE bg_id = :commentId";
     $stmt = $db->prepare($query);
     $stmt->bindParam(':commentId', $commentId, PDO::PARAM_INT);
@@ -20,7 +20,7 @@ if (isset($_GET['id'])) {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="editform.css">
+        <link rel="stylesheet" href="../assets/style/editform.css">
         <title>Editar Comentaire</title>
     </head>
 
@@ -47,3 +47,8 @@ if (isset($_GET['id'])) {
 
 <!-- // Verification si i la reçu le commantaires
 // raquette de la obtention de donnes a modifier -->
+
+
+
+<!-- /// Verification if the DB recived the data  of the comments section 
+/// after we do a simple request to obtein all the DATA. -->

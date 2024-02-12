@@ -21,13 +21,13 @@ $comments = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="adminbg.css">
+    <link rel="stylesheet" href="../assets/style/adminbg.css">
     <title>Administrar Blog</title>
 </head>
 
 <body>
     <h1>BLOG ADMIN ADMINISTRACIÓN</h1>
-    <a href="index.php"   class="atras"  >Volver Atras</a>
+    <a href="index.php" class="atras">Volver Atras</a>
     <table>
         <tr>
             <th>Pseudo</th>

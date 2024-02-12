@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="livredor.css">
+    <link rel="stylesheet" href="../assets/style/livredor.css">
     <title>Escribir un mensaje</title>
 </head>
 
@@ -15,7 +15,7 @@
         Comentaire: <textarea name="comment" rows="5" cols="40"></textarea><br>
         <input type="submit" value="Enviar" id="submitButton">
     </form>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
