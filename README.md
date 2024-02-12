@@ -30,11 +30,8 @@ SQL Example To Implement the logic of the forum
 <p> Feel Free to USE / MODIFY </p></strong>
 
 </ul>
-![captura](https://github.com/Mus9617/Forum/assets/70225456/44c6e321-69c3-4654-82cc-5c782594670f)
 
 <p align="center">
-SCREENSHOT
-  
+   SCREENSHOT
   <img src="https://github.com/Mus9617/Forum/assets/70225456/44c6e321-69c3-4654-82cc-5c782594670f" width="350" title="hover text">
-
 </p>
